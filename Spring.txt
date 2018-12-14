@@ -1,0 +1,104 @@
+							SPRING 
+MoDULES
+
+(1)Core(IOC)
+(2)Spring MVC
+(3)Spring JDBC API
+(4)Spring AOP
+(5)Spring BJB
+(6)Spring Data
+(7)Spring REST
+(8)Spring  BOOT
+------------------------------------------------
+Spring 5.0 Supports hibernate,java 9,JPA 
+------------------------------------------------
+
+Core(IOC)(Inversion of control).it is used to build Desktop (or)standalone application. it provides environment to run Desktop applications.
+It has Spring core(or)IOC Container
+
+Dependency Injection is used to inject the dependencies in the project
+
+Loosely coupled  is used to reduce the dependencies between the classes
+
+
+Step 1-: Bean class
+Step 2-: Configuration file
+Step 3-: Inject Dependencies
+
+
+attr=singleton 
+
+
+session,global session, request will work in web application
+
+
+Two ways to inject bean into class in two ways
+(1)constructor type injection
+(2)setter      type injection
+
+
+
+
+spring container life cycle
+------------------------------------------------
+option 1:  implementing life cycle interfaces and overriding afterPropertiesSet() and destroy()
+option 2:  using annotations
+           @PostConstruct
+           @PreDestroy
+option 3:  using atributes of bean in xml
+           init-method
+           destrpy-method
+
+
+Auto wiring:  Assigning values to the bean automatically is known as Auto Wiring
+  
+Here we use an attribute called autowire
+
+              
+  We can do this in four ways they are
+    
+autowire = default (0r) no
+
+autowire = "byName"  it checks with the name of the bean id
+
+autowire = "byType"   it checks with  the bean id reference
+
+autowire = "Constructor"
+
+---------------------------------------------------------------------------------------------------------------
+
+				collection mapping to a bean
+
+1)list
+2)Set 
+3)Map
+-----------------------------------------------------------------------------------------------------------------
+                                             Spring MVC
+ There are two dependencies
+1)Spring-web
+2)Spring-webmvc
+3)Spring core
+4)Spring context
+5)tomcat embed core
+6)Taglib standard
+
+
+
+----------------------------------------------------------------------------------------------------------------
+				SPRING BOOT
+Four ways to  create a spring boot application
+(1)Spring Starter Project
+(2)Spring Boot CLI
+(3)Spring IO
+(4)Maven
+
+
+
+
+To read data from the url we need path variable
+
+
+To read data from the form we need request param
+------------------------------------------------------------------------------------------------------------------
+					Spring Data
+
